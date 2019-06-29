@@ -5,7 +5,7 @@ export class Character extends Component {
 
     render() {
 
-        const { image, name, species, id, origin, status } = this.props
+        const { image, name, id, status } = this.props
 
         return (
             <Link to={`/character/${id}`} className="card">
